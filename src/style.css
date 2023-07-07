@@ -51,21 +51,30 @@ footer {
   padding: 8px;
 }
 
-#TeamsTable {
+.tbar {
+  display: flex;
+  padding: 0 0 5px 0;
+}
+
+.tfill {
+  flex: 1;
+}
+
+#teamsTable {
   border-collapse: collapse;
   width: 100%;
 }
-#TeamsTable th,
-#TeamsTable td {
+#teamsTable th,
+#teamsTable td {
   border: 1px solid black;
   padding: 6px;
 }
 
-#TeamsTable th {
+#teamsTable th {
   background-color: #057988;
   color: white;
 }
 
-#TeamsTable tr:nth-child(even) {
+#teamsTable tr:nth-child(even) {
   background-color: #f2f2f2;
 }
